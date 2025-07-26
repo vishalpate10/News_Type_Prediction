@@ -83,7 +83,17 @@ if st.button("Predict Category"):
 
 # Footer
 st.markdown("""
-    <div style='text-align: center; margin-top: 50px; font-size: 14px; color: black;'>
+    <style>
+        .footer {
+            position: fixed;
+            right: 10px;
+            bottom: 10px;
+            font-size: 14px;
+            color: black;
+            z-index: 100;
+        }
+    </style>
+    <div class="footer">
         Developed by Vishal
     </div>
 """, unsafe_allow_html=True)
