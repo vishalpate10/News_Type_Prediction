@@ -83,8 +83,7 @@ if st.button("Predict Category"):
 
 # Footer
 st.markdown("""
-    <hr style="margin-top: 50px;"/>
-    <div style="text-align: center; padding: 10px; color: #444444; font-size: 14px;">
-        Developed by <b>Vishal</b> 🧑‍💻
+    <div style='text-align: center; margin-top: 50px; font-size: 14px; color: black;'>
+        Developed by Vishal
     </div>
 """, unsafe_allow_html=True)
