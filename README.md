@@ -35,9 +35,5 @@ App Link :- https://newstypeprediction-by-vishal.streamlit.app/
 
 ## 📷 App Preview
 
-![App Screenshot](https://i.imgur.com/ZK3qPSd.png) <!-- Replace with your actual screenshot URL if hosted -->
-
----
-
-## 📁 Project Structure
+<img width="1366" height="620" alt="Image" src="https://github.com/user-attachments/assets/88c66020-cb0b-41a3-9aa2-8f0441e32618" /> <!-- Replace with your actual screenshot URL if hosted -->
 
