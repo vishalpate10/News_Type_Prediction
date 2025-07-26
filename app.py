@@ -23,7 +23,7 @@ st.markdown("""
     }
 
     .stTextInput, .stTextArea, .stButton > button {
-        background-color: #ffffffaa;
+        background-color: black;
         border-radius: 8px;
     }
 
