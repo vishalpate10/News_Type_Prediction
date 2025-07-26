@@ -11,7 +11,7 @@ with open("vectorizer.pkl", "rb") as f:
 # Set page configuration
 st.set_page_config(page_title="News Category Predictor", layout="centered")
 
-# Inject custom CSS for background
+# Custom CSS styling
 st.markdown("""
     <style>
     .stApp {
@@ -19,22 +19,41 @@ st.markdown("""
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
-        color: black;
+        color: #222222;
+        font-family: 'Arial', sans-serif;
     }
 
     .stTextInput, .stTextArea, .stButton > button {
-        background-color: black;
+        background-color: #ffffffdd;
+        color: #000000 !important;
         border-radius: 8px;
+        padding: 10px;
+        font-size: 16px;
     }
 
     .stTextInput input, .stTextArea textarea {
-        color: black;
+        color: #000000 !important;
+    }
+
+    .stButton > button {
+        transition: 0.3s ease-in-out;
+    }
+
+    .stButton > button:hover {
+        background-color: #444444 !important;
+        color: #ffffff !important;
     }
 
     .stTitle, .stMarkdown {
-        background-color: #ffffffcc;
+        background-color: #f9f9f9dd;
         padding: 10px;
         border-radius: 10px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .stSuccess {
+        background-color: #dff0d8 !important;
+        color: #3c763d !important;
     }
     </style>
 """, unsafe_allow_html=True)
