@@ -35,6 +35,11 @@ st.markdown("""
         color: #000000 !important;
     }
 
+    .stTextInput label, .stTextArea label {
+        color: #000000 !important;
+        font-weight: bold;
+    }
+
     .stButton > button {
         transition: 0.3s ease-in-out;
     }
@@ -75,3 +80,4 @@ if st.button("Predict Category"):
         text_vector = vectorizer.transform([input_text])
         prediction = model.predict(text_vector)
         st.success(f"**Predicted Category:** `{prediction[0]}`")
+
