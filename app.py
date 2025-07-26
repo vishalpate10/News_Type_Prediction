@@ -81,21 +81,4 @@ if st.button("Predict Category"):
         prediction = model.predict(text_vector)
         st.success(f"**Predicted Category:** `{prediction[0]}`")
 
-# Footer
-# Footer: Bottom-right corner, no background box
-st.markdown("""
-    <style>
-        .footer {
-            position: fixed;
-            right: 10px;
-            bottom: 10px;
-            font-size: 14px;
-            color: black;
-            z-index: 100;
-        }
-    </style>
-    <div class="footer">
-        Developed by Vishal
-    </div>
-""", unsafe_allow_html=True)
 
