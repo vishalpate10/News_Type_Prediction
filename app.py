@@ -81,3 +81,10 @@ if st.button("Predict Category"):
         prediction = model.predict(text_vector)
         st.success(f"**Predicted Category:** `{prediction[0]}`")
 
+# Footer
+st.markdown("""
+    <hr style="margin-top: 50px;"/>
+    <div style="text-align: center; padding: 10px; color: #444444; font-size: 14px;">
+        Developed by <b>Vishal</b> 🧑‍💻
+    </div>
+""", unsafe_allow_html=True)
