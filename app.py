@@ -81,5 +81,3 @@ if st.button("Predict Category"):
         prediction = model.predict(text_vector)
         st.success(f"**Predicted Category:** `{prediction[0]}`")
 
-st.markdown("<div style='text-align: right;'><h4 style='color: white;'>Developed by: Vishal Pate</h4>", unsafe_allow_html=True) 
-st.markdown("<div style='text-align: right;'><h4 style='color: white;'>Email: vprakashpate@gmail.com</h4>", unsafe_allow_html=True)
