@@ -15,7 +15,7 @@ st.set_page_config(page_title="News Category Predictor", layout="centered")
 st.markdown("""
     <style>
     .stApp {
-        background-image: url("https://st.depositphotos.com/1032463/1373/i/450/depositphotos_13732950-Background-of-old-vintage-newspapers.jpg");
+        background-image: url("https://e0.pxfuel.com/wallpapers/981/852/desktop-wallpaper-newspaper-background-black-and-white-newspaper.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
