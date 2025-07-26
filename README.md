@@ -2,6 +2,8 @@
 
 A sleek and easy-to-use **Streamlit web app** that predicts the **category** of a news article based on its **headline** and **short description**, trained using a **Logistic Regression model** on the [HuffPost News Category Dataset](https://www.kaggle.com/datasets/rmisra/news-category-dataset).
 
+politics, sports, business, entertainment, technology ETC
+
 ---
 
 App Link :- https://newstypeprediction-by-vishal.streamlit.app/
